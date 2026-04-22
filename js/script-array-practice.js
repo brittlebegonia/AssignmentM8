@@ -66,6 +66,15 @@
 // }
 
 //STEP 9
+movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
+let leastFavMovies = ["Cats", "Goodfellas", "Top Gun"];
+
+movies = movies.concat(leastFavMovies);
+movies.sort().reverse();
+
+for (let movie of movies) {
+    console.log(movie);
+}
 
 //STEP 10
 
