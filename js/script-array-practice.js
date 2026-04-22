@@ -95,28 +95,65 @@
 // console.log(movies[0]);
 
 //STEP 12
-movies = ["13 Going on 30", "Cats", "The Proposal", "Clueless", "27 Dresses"];
+// movies = ["13 Going on 30", "Cats", "The Proposal", "Clueless", "27 Dresses"];
 
-let badMovies = ["Cats", "27 Dresses"];
-let replacements = ["Crazy Rich Asians", "Bride Wars"];
+// let badMovies = ["Cats", "27 Dresses"];
+// let replacements = ["Crazy Rich Asians", "Bride Wars"];
 
-let count = 0;
+// let count = 0;
 
-for (let i = 0; i < movies.length; i++) {
-    if (badMovies.includes(movies[i])) {
-        movies[i] = replacements[count];
-        count++;
-    }
-}
+// for (let i = 0; i < movies.length; i++) {
+//     if (badMovies.includes(movies[i])) {
+//         movies[i] = replacements[count];
+//         count++;
+//     }
+// }
 
-console.log(movies);
+// console.log(movies);
 
 //STEP 13
+// movies = [
+//     ["13 Going on 30", 1],
+//     ["The Proposal", 2],
+//     ["Crazy Rich Asians", 3],
+//     ["Clueless", 4],
+//     ["27 Dresses", 5]
+// ];
+
+// movies.forEach(function(item) {
+//     let names = item.filter(value => typeof value === "string");
+//     console.log(names[0]);
+// });
 
 //STEP 14
+// let employees = ["ZAK", "JESSICA", "MARK", "FRED", "SALLY"];
+
+// let showEmployee = function(arr) {
+//     console.log("Employees:\n");
+//     for (let employee of arr) {
+//         console.log(employee);
+//     }
+// };
+
+// showEmployee(employees);
 
 //STEP 15
+// function filterValues(arr) {
+//     return arr.filter(Boolean);
+// }
+
+// console.log(filterValues([58, '', 'abcd', true, null, false, 0]));
 
 //STEP 16
+// function getRandomItem(arr) {
+//     return arr[Math.floor(Math.random() * arr.length)];
+// }
+
+// console.log(getRandomItem([1,2,3,4,5,6,7,8,9,10]));
 
 //STEP 17
+// function getLargestNumber(arr) {
+//     return Math.max(...arr);
+// }
+
+// console.log(getLargestNumber([12, 55, 8, 84, 25]));
