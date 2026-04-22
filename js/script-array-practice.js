@@ -66,19 +66,33 @@
 // }
 
 //STEP 9
-movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
-let leastFavMovies = ["Cats", "Goodfellas", "Top Gun"];
+// movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
+// let leastFavMovies = ["Cats", "Goodfellas", "Top Gun"];
 
-movies = movies.concat(leastFavMovies);
-movies.sort().reverse();
+// movies = movies.concat(leastFavMovies);
+// movies.sort().reverse();
 
-for (let movie of movies) {
-    console.log(movie);
-}
+// for (let movie of movies) {
+//     console.log(movie);
+// }
 
 //STEP 10
+// movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
+// let leastFavMovies = ["Cats", "Goodfellas", "Top Gun"];
+
+// movies = movies.concat(leastFavMovies);
+// movies.sort().reverse();
+
+// console.log(movies[movies.length - 1]);
 
 //STEP 11
+// movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
+// let leastFavMovies = ["Cats", "Goodfellas", "Top Gun"];
+
+// movies = movies.concat(leastFavMovies);
+// movies.sort().reverse();
+
+// console.log(movies[0]);
 
 //STEP 12
 
