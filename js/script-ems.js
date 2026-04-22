@@ -26,19 +26,30 @@ buildGrid();
 // ADD EMPLOYEE
 form.addEventListener('submit', (e) => {
     // PREVENT FORM SUBMISSION
+    e.preventDefault();
 
     // GET THE VALUES FROM THE TEXT BOXES
+    let id = document.getElementById("id").value;
+    let name = document.getElementById("name").value;
+    let extension = document.getElementById("extension").value;
+    let email = document.getElementById("email").value;
+    let department = document.getElementById("department").value;
 
     // ADD THE NEW EMPLOYEE TO A NEW ARRAY OBJECT
+    let newEmployee = [id, name, extension, email, department];
 
     // PUSH THE NEW ARRAY TO THE *EXISTING* EMPLOYEES ARRAY
+    employees.push(newEmployee);
 
     // BUILD THE GRID
+    buildGrid();
 
     // RESET THE FORM
+    form.reset();
 
     // SET FOCUS BACK TO THE ID TEXT BOX
-
+    document.getElementById("id").focus();
+    
 });
 
 // DELETE EMPLOYEE
