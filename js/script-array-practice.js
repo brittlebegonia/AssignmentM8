@@ -1,6 +1,6 @@
 //STEP 1
-let movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses"];
-console.log(movies[1]);
+// let movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses"];
+// console.log(movies[1]);
 
 //STEP 2
 // movies = new Array(5);
@@ -50,20 +50,20 @@ console.log(movies[1]);
 // }
 
 //STEP 8
-movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
-let leastFavMovies = ["Cats", "Goodfellas", "Top Gun"];
+// movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
+// let leastFavMovies = ["Cats", "Goodfellas", "Top Gun"];
 
-console.log("Movies I like:\n");
+// console.log("Movies I like:\n");
 
-for (let movie of movies) {
-    console.log(movie);
-}
+// for (let movie of movies) {
+//     console.log(movie);
+// }
 
-console.log("\nMovies I regret watching:\n");
+// console.log("\nMovies I regret watching:\n");
 
-for (let movie of leastFavMovies) {
-    console.log(movie);
-}
+// for (let movie of leastFavMovies) {
+//     console.log(movie);
+// }
 
 //STEP 9
 
