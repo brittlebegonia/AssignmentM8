@@ -95,6 +95,21 @@
 // console.log(movies[0]);
 
 //STEP 12
+movies = ["13 Going on 30", "Cats", "The Proposal", "Clueless", "27 Dresses"];
+
+let badMovies = ["Cats", "27 Dresses"];
+let replacements = ["Crazy Rich Asians", "Bride Wars"];
+
+let count = 0;
+
+for (let i = 0; i < movies.length; i++) {
+    if (badMovies.includes(movies[i])) {
+        movies[i] = replacements[count];
+        count++;
+    }
+}
+
+console.log(movies);
 
 //STEP 13
 
