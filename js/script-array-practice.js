@@ -3,36 +3,51 @@ let movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless",
 console.log(movies[1]);
 
 //STEP 2
-movies = new Array(5);
-movies[0] = "13 Going on 30";
-movies[1] = "The Proposal";
-movies[2] = "Crazy Rich Asians";
-movies[3] = "Clueless";
-movies[4] = "27 Dresses";
+// movies = new Array(5);
+// movies[0] = "13 Going on 30";
+// movies[1] = "The Proposal";
+// movies[2] = "Crazy Rich Asians";
+// movies[3] = "Clueless";
+// movies[4] = "27 Dresses";
 
-console.log(movies[0]);
+// console.log(movies[0]);
 
 //STEP 3
-movies = new Array(5);
-movies[0] = "13 Going on 30";
-movies[1] = "The Proposal";
-movies[2] = "Crazy Rich Asians";
-movies[3] = "Clueless";
-movies[4] = "27 Dresses";
+// movies = new Array(5);
+// movies[0] = "13 Going on 30";
+// movies[1] = "The Proposal";
+// movies[2] = "Crazy Rich Asians";
+// movies[3] = "Clueless";
+// movies[4] = "27 Dresses";
 
-movies.splice(2, 0, "The Wedding Planner");
-console.log(movies.length);
+// movies.splice(2, 0, "The Wedding Planner");
+// console.log(movies.length);
 
 //STEP 4
-movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses"];
-delete movies[0];
-console.log(movies);
+// movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses"];
+// delete movies[0];
+// console.log(movies);
 
 //STEP 5
+// movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
+
+// for (let index in movies) {
+//     console.log(movies[index]);
+// }
 
 //STEP 6
+// movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
+// for (let movie of movies) {
+//     console.log(movie);
+// }
 
 //STEP 7
+movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
+movies.sort();
+
+for (let movie of movies) {
+    console.log(movie);
+}
 
 //STEP 8
 
