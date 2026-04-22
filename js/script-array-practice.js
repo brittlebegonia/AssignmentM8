@@ -42,14 +42,28 @@ console.log(movies[1]);
 // }
 
 //STEP 7
+// movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
+// movies.sort();
+
+// for (let movie of movies) {
+//     console.log(movie);
+// }
+
+//STEP 8
 movies = ["13 Going on 30", "The Proposal", "Crazy Rich Asians", "Clueless", "27 Dresses", "Bride Wars", "Just Like Heaven"];
-movies.sort();
+let leastFavMovies = ["Cats", "Goodfellas", "Top Gun"];
+
+console.log("Movies I like:\n");
 
 for (let movie of movies) {
     console.log(movie);
 }
 
-//STEP 8
+console.log("\nMovies I regret watching:\n");
+
+for (let movie of leastFavMovies) {
+    console.log(movie);
+}
 
 //STEP 9
 
