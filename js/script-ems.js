@@ -49,23 +49,34 @@ form.addEventListener('submit', (e) => {
 
     // SET FOCUS BACK TO THE ID TEXT BOX
     document.getElementById("id").focus();
-    
+
 });
 
 // DELETE EMPLOYEE
 empTable.addEventListener('click', (e) => {
+
+    if (e.target.classList.contains("delete")) {
+
     // CONFIRM THE DELETE
+    if (confirm("Are you sure you want to delete this employee?")) {
 
         // GET THE SELECTED ROWINDEX FOR THE TR (PARENTNODE.PARENTNODE)
+        let row = e.target.parentNode.parentNode;
+        let rowIndex = row.rowIndex - 1;
 
         // REMOVE EMPLOYEE FROM ARRAY
+        employees.splice(rowIndex, 1);
 
         // BUILD THE GRID
+        buildGrid();
 
+        }
+    }   
 });
 
 // BUILD THE EMPLOYEES GRID
 function buildGrid() {
+    
     // REMOVE THE EXISTING SET OF ROWS BY REMOVING THE ENTIRE TBODY SECTION
 
     // REBUILD THE TBODY FROM SCRATCH
